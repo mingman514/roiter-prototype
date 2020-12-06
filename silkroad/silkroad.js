@@ -45,7 +45,7 @@ recognition.onresult = function (event) {
     // 결과를 출력 
     var resText = event.results[0][0].transcript;
     //text to sppech 
-    text_to_speech(resText);
+    // text_to_speech(resText);
     let texts = Array.from(event.results).map(results => results[0].transcript).join("");
     showTexts.text(texts);
     statusMsg.text("음성인식 완료");
