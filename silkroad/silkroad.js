@@ -81,6 +81,7 @@ recognition.onresult = function (event) {
                     recognition.start(); }, 4000);
                 return ;
         }
+        cntdown.hide();
         setTimeout(() => {
             $(`#navbarForClick a[href="${targetPage}"]`).click();
             naviBoard.fadeOut(300);
