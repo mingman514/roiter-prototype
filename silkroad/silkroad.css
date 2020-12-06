@@ -4,11 +4,13 @@
     /* background-color: rgb(194, 194, 194); */
     box-shadow: 2px 2px gray;
     transition: .3s;
+    cursor: pointer;
 }
 
 #micBtn{
     margin-top: 10px;
     transition: .3s;
+    cursor: pointer;
 }
 .micOff{
     background-color: rgb(28, 147, 245);
