@@ -10,7 +10,7 @@ recognition.lang = 'ko-KR';
 
 
 // DOM
-var micBtn = $('#micBtnArea');
+var micBtn = $('.micBtnArea');
 var naviBoard = $('#naviBoard');
 var naviHeader = $('#naviHeader h2');
 var naviMenu = $('#naviMenu .list-group');
