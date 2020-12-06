@@ -1,0 +1,70 @@
+#micBtnArea{
+    position: fixed;
+    border-radius: 50px;
+    /* background-color: rgb(194, 194, 194); */
+    box-shadow: 2px 2px gray;
+    transition: .3s;
+}
+
+#micBtn{
+    margin-top: 10px;
+    transition: .3s;
+}
+.micOff{
+    background-color: rgb(28, 147, 245);
+    color: white;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    bottom: 20px;
+}
+.micOn{
+    background-color: rgb(255, 189, 66);
+    color: black;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#naviBoard{
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    box-shadow: 2px 2px gray;
+    background-color: rgb(255, 189, 66);
+    border-radius: 15px;
+    padding-bottom: 0 !important;
+}
+
+#naviHeader h2{
+    color: black;
+    font-weight: 700;
+}
+
+#naviMenu{
+    font-size: 20px;
+}
+
+#showTexts{
+    display: inline-block;
+    background-color: whitesmoke;
+    /* padding: 5px 10px; */
+    color: black;
+}
+
+#cntdown{
+    position: absolute;
+    right: 10px;
+    bottom: 14px;
+    font-size: 24px;
+    color: black;
+    background-color: whitesmoke;
+    width: 34px;
+    height: 34px;
+    border-radius: 30px;
+}

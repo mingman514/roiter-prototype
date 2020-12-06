@@ -42,6 +42,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="silkroad/silkroad.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Imperial
@@ -57,7 +58,7 @@
   Header Section
   ============================-->
   <header id="header">
-    <div class="container">
+    <div class="container" id="navbarForClick">
 
       <div id="logo" class="pull-left">
         <!-- <a href="#hero"><img src="img/gealimi/gealimi_logo.png" alt="" title=""></a> -->
@@ -519,6 +520,29 @@
     </div>
   </section>
 
+<div id="micBtnArea" class="micOff text-center">
+  <i id="micBtn" class="fa fa-microphone-alt fa-2x"></i>
+</div>
+<!-- SILKROAD NAVIGATOR -->
+  <div id="naviBoard" class="jumbotron">
+    <!-- Header -->
+    <div id="naviHeader" class="text-center">
+      <h2>무엇을 도와드릴까요?</h2>
+    </div>
+    <!-- Menu -->
+    <div id="naviMenu" class="container">
+      <ul class="list-group">
+        <li class="list-group-item">1. 메인화면</li>
+        <li class="list-group-item">2. 단체소개</li>
+        <li class="list-group-item">3. 활동</li>
+        <li class="list-group-item">4. 갤러리</li>
+      </ul>
+    </div>
+    <div class="naviFooter text-center">
+      <h4 id="statusMsg">음성인식 대기중입니다.</h4><span id="cntdown"></span>
+      <h3 id="showTexts"></h3>
+    </div>
+  </div>
   <!--==========================
   Footer
 ============================-->
@@ -559,6 +583,9 @@
   <!-- Template Specisifc Custom Javascript File -->
   <script src="js/plugins.js"></script>
   <script src="js/custom.js"></script>
+
+  <!-- SILKROAD -->
+  <script src="silkroad/silkroad.js"></script>
 
   <!-- <script src="contactform/contactform.js"></script> -->
 
